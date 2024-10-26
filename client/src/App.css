@@ -1,0 +1,190 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.Shauket {
+  color: rgb(254, 0, 0);
+}
+
+.Ali {
+  color: rgb(1, 68, 148);
+}
+
+@media (max-width: 576px) {
+  .And {
+    margin-left: 103px;
+    position: relative;
+    bottom: 17px;
+  }
+  
+}
+
+
+@media (min-width: 570px) and (max-width: 820px) {
+  .And {
+    position: relative;
+    margin-left: 155px;
+    bottom: 19px;
+  }
+  
+}
+@media (min-width: 320px) and (max-width: 360px) {
+
+  .box-button{
+    position: relative;
+    left: 265px; 
+    bottom: 70px;
+    height: 0px;
+    
+  }
+}
+
+
+@media (min-width: 370px) and (max-width: 470px) {
+
+  .box-button{
+    position: relative;
+    left: 310px; 
+    bottom: 70px;
+    height: 0px;
+
+}
+}
+@media (min-width: 470px) and (max-width: 570px) {
+
+  .box-button{
+    position: relative;
+    left: 410px; 
+    bottom: 70px;
+    height: 0px;
+  }
+}
+
+@media (min-width: 570px) and (max-width: 670px) {
+
+  .box-button{
+    position: relative;
+    left: 510px; 
+    bottom: 70px;
+    height: 0px;
+   
+  }
+}
+@media (min-width: 670px) and (max-width: 768px) {
+
+  .box-button{
+    position: relative;
+    left: 610px; 
+    bottom: 70px;
+    height: 0px;
+  }
+}
+
+@media (min-width: 770px) and (max-width: 892px) {
+
+  .box-button{
+    position: relative;
+    left: 370px;
+  }
+}
+@media (min-width: 892px) and (max-width: 992px) {
+
+  .box-button{
+    position: relative;
+    left: 480px;
+  }
+}
+
+@media (min-width: 820px) {
+  .And {
+    position: relative;
+    margin-left: 157px;
+    bottom: 19px;
+  }
+  .pages{
+    margin-left: 250px;
+  }
+}
+@media (min-width: 992px) {
+  .pages{
+    margin-left: 300px;
+  }
+}
+@media (min-width: 1200px) {
+  .And {
+    position: relative;
+    margin-left: 197px;
+    bottom: 19px;
+    
+  }
+  .pages{
+    margin-left: 350px;
+  }
+}
+
+@media (min-width: 1350px) {
+
+  .pages{
+    margin-left: 430px;
+  }
+}
+@media (min-width: 1510px) {
+
+  .pages{
+    margin-left: 480px;
+  }
+}
+
+.links li {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  padding: 3px 10px;
+  white-space: nowrap;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.nav-link {
+  color: rgb(131, 1, 1);
+}
+
+.nav-link.active {
+  color: rgb(1, 68, 148);
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.links li:hover {
+  color: rgb(1, 68, 148);
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #fff;
+}
+
+@media (max-width: 991px) {
+  .navbar-toggler {
+    display: block !important;
+  }
+  
+  .links {
+    display: none !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-toggler {
+    display: none !important;
+  }
+  
+  .links {
+    display: flex !important;
+  }
+}

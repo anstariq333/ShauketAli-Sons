@@ -1,0 +1,129 @@
+/* Existing CSS */
+.baody {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.inspirations{
+  color: rgb(1, 68, 148);
+}
+
+img {
+  max-width: 100%;
+}
+
+@media (max-width: 576.98px) {
+  
+  .prop {
+    font-size: 1rem !important;;
+    line-height: 1.5rem;
+    margin-bottom: 20px;
+  }
+}  
+
+  .gallery {
+    height: 500px;
+    --img-size: calc(100px - .5rem / 2);
+    display: grid;
+    gap: .5rem;
+    grid-template-columns: repeat(6, var(--img-size));
+    grid-template-rows: repeat(3, var(--img-size));
+   
+    img {
+  /*     width: 100%; */
+      aspect-ratio: 1;
+  /*     height: 100%; */
+      object-fit: cover;
+      grid-column: span 2;
+      border-radius: .5rem;
+      clip-path: path('M 80 20 C 100 0 100 0 120 20 C 140 40 160 60 180 80 C 200 100 200 100 180 120 C 160 140 140 160 120 180 C 100 200 100 200 80 180 C 60 160 40 140 20 120 C 0 100 0 100 20 80 Z');
+      transition: 
+        filter 500ms,
+        clip-path 500ms;
+      
+      &:nth-of-type(4) {
+        grid-column: 2 / span 2;
+      }
+      
+      &:hover {
+        z-index: 100;
+        clip-path: path('M 0 0 C 100 0 100 0 200 0 C 200 50 200 50 200 80 C 200 100 200 100 200 120 C 200 150 200 150 200 200 C 100 200 100 200 0 200 C 0 150 0 150 0 120 C 0 100 0 100 0 80 Z');
+      }
+      
+      &:not(:hover) {
+        animation: zIndexHack 500ms;
+      }
+    }
+  }
+
+  
+ 
+
+  .gallery:hover > img {
+    filter: brightness(.5) saturate(.5);
+  }
+  
+  .gallery > img:hover {
+    filter: brightness(1) saturate(1.5);
+  }
+  
+  
+  @keyframes zIndexHack {
+    0%, 100% {
+      z-index: 10;
+    }
+  }
+
+
+.gallery {
+  --img-size: calc(100px - .5rem / 2);
+  display: grid;
+  gap: .5rem;
+  grid-template-columns: repeat(6, var(--img-size));
+  grid-template-rows: repeat(3, var(--img-size));
+}
+
+/* Media query for screens smaller than 992px */
+.project {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-size: 4rem;
+  font-weight: bold;
+}
+@media (max-width: 576.98px) {
+  .project {
+  font-size: 0.5rem;
+  }
+}
+@media (max-width: 992.98px) {
+  .project {
+  font-size: 3rem;
+  }
+}
+@media (max-width: 767.98px) {
+  .project {
+    font-size: 2.5rem; /* Adjust the font size for smaller screens */
+  }
+
+  .gallery {
+    --img-size: calc(100px - .5rem / 2); /* Adjust the image size for smaller screens */
+    grid-template-columns: repeat(4, var(--img-size)); /* Adjust the number of columns for smaller screens */
+    grid-template-rows: repeat(6, var(--img-size)); /* Adjust the number of rows for smaller screens */
+   margin-left: 70px;
+   height: 670px;
+  }
+
+  .gallery img:nth-of-type(4) {
+    grid-column: 2 / span 2; /* Adjust the grid placement for smaller screens */
+  }
+  .correct{
+    position: relative;
+    bottom: 50px;
+    left: 100px;
+  }
+}
+
+
+

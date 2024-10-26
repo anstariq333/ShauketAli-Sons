@@ -1,0 +1,213 @@
+.contact-us {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .contact-us h2 {
+    margin-bottom: 20px;
+  }
+  
+  .contact-us .form-label {
+    font-weight: bold;
+  }
+  
+  .contact-us .btn-primary {
+    background-color: #007bff;
+    border: none;
+  }
+  
+  .contact-us .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .contact-us h5 {
+    margin-top: 20px;
+  }
+  
+  .contact-us p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+.contact-img{
+   height: 600px;
+    background-image: url("./images/contact2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.8); 
+}  
+
+@media (max-width: 576.98px) {
+  .contact-img{
+  height: 300px !important;
+  background-image: url("./images/contact2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.8); 
+  }
+}
+@media (min-width: 577px)  and (max-width: 992.98px) {
+  .contact-img{
+  height: 400px !important;
+  background-image: url("./images/contact2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.8); 
+  }
+}
+
+.heading1{
+  font-size: 4rem;
+   font-weight: 700;
+   margin-left:  20px;
+}
+.phone{
+  margin-top: 50px;
+  color: rgb(254, 0, 0);
+}
+
+
+.form-body{
+  background-color:rgb(248, 248, 248) ;
+ 
+}
+.form-title{
+ font-size: 4rem;
+ font-weight: 750px;
+
+}
+@media (min-width: 576px) and (max-width: 767px) {
+.top{
+
+ margin-left: 60px;
+}
+
+.input{
+ height: 100px;
+ position: relative;
+ right: 20px;
+}
+.area{
+ height: 220px;
+ margin-left: 20px;
+
+}
+ 
+.btn {
+  background-color: rgb(254, 0, 0);
+  height: 80px;
+  color: #fff;
+  position: relative;
+ left: 20px;
+  transition: background-color 0.3s; /* Adding transition for smooth effect */
+ }
+}
+
+
+@media (max-width: 576.98px) {
+.area{
+ height: 200px;
+ margin-left: 15px;
+}
+.input{
+  height: 100px;
+  margin-left: 10px;
+ }
+ 
+ .btn {
+  background-color: rgb(254, 0, 0);
+  height: 80px;
+  color: #fff;
+  position: relative;
+ left: 28px;
+  transition: background-color 0.3s; /* Adding transition for smooth effect */
+ }
+ 
+
+}
+
+@media (min-width: 767px) and (max-width: 992px) {
+
+  .area{
+    height: 300px;
+    margin-left: 2px;
+   }
+   .input{
+    height: 100px;
+    margin-left: 18px;
+   }
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+  .area{
+    height: 230px;
+    margin-left: 10px;
+   }
+   .input{
+    height: 100px;
+    margin-left: 25px;
+   }
+   .phone{
+    margin-top: 200px;
+    color: rgb(254, 0, 0);
+  }
+ 
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+
+  .area{
+    height: 300px;
+    margin-left: 15px;
+   }
+   .input{
+    height: 100px;
+    margin-left: 33px;
+   }
+
+}
+@media (min-width: 1400px) {
+
+  .area{
+    height: 300px;
+    margin-left: 15px;
+   }
+   .input{
+    height: 100px;
+    margin-left: 50px;
+   }
+   .phone{
+    margin-top: 200px;
+    color: rgb(254, 0, 0);
+  }
+
+   .btn {
+    background-color: rgb(254, 0, 0);
+    height: 80px;
+    color: #fff;
+    margin-right: 80px;
+    transition: background-color 0.3s; /* Adding transition for smooth effect */
+   }
+   
+}
+
+
+.btn {
+ background-color: rgb(254, 0, 0);
+ height: 80px;
+ color: #fff;
+ margin-right: 80px;
+ transition: background-color 0.3s; /* Adding transition for smooth effect */
+}
+
+.btn:hover {
+ background-color: #000; /* Change background color to black on hover */
+ color: #fff;
+}
+.dot{
+   color:rgb(24, 16, 16) ;;
+}
