@@ -6,6 +6,25 @@
   box-sizing: border-box;
 }
 
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
+}
+
+
+main {
+  width: 100%;
+  overflow: hidden;
+}
+
+
+.box-button {
+ 
+  left: auto;
+  right: 20px; 
+}
+
 .Shauket {
   color: rgb(254, 0, 0);
 }
