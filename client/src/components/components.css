@@ -140,7 +140,7 @@
       z-index: -1;
       inset: 0;
       opacity: .65;
-      background-image: url("/images/about1.jpg");
+      background-image: url( "./images/about1.jpg" );
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
@@ -163,7 +163,7 @@
       z-index: -1;
       inset: 0;
       opacity: .35;
-      background-image: url("/images/about1.jpg");
+      background-image: url( "./images/about1.jpg" );
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
@@ -192,7 +192,7 @@
     z-index: -1;
     inset: 0;
     opacity: .65;
-    background-image: url("/images/back3.jpg");
+    background-image: url("./images/back3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
