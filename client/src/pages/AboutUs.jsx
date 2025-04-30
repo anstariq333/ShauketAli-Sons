@@ -49,7 +49,7 @@ export default function AboutUs() {
       
       <div className='row align-items-center  d-none d-md-flex'>
         <div className='col-12 col-md-6 slide-in from-left'>
-        <img src="./images/about1.jpg" className="img-fluid slider-img img-about shadow" alt="Lighting" />
+        <img src="./images/about1.jpg" className="img-fluid slider-img img-about shadow" alt="company" />
           
         </div>
         <div className='col-12 col-md-6 slide-in from-right'>
