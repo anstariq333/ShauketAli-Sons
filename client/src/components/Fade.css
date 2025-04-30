@@ -150,7 +150,7 @@
   }
   .service-img{
     height: 600px !important;
-    background-image: url("./images/ground.jpg");
+    background-image: url('/images/ground.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -159,7 +159,7 @@
   @media (max-width: 576.98px) {
     .service-img{
     height: 300px !important;
-    background-image: url("./images/ground.jpg");
+    background-image: url('/images/ground.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -169,27 +169,7 @@
   @media (min-width: 577px)  and (max-width: 992.98px) {
     .service-img{
     height: 400px !important;
-    background-image: url("./images/ground.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-color: rgba(0, 0, 0, 0.8); 
-    }
-  }
-  @media (max-width: 576.98px) {
-    .client-img{
-    height: 300px !important;
-    background-image: url("./images/clients3.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-color: rgba(0, 0, 0, 0.8); 
-    }
-  }
-  @media (min-width: 577px)  and (max-width: 992.98px) {
-    .client-img{
-    height: 400px !important;
-    background-image: url("./images/clients3.jpg");
+    background-image: url('/images/ground.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -198,7 +178,35 @@
   }
   .client-img{
     height: 600px;
-    background-image: url("./images/clients3.jpg");
+    background-image: url('/images/clients3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.8); 
+  }
+  @media (max-width: 576.98px) {
+    .client-img{
+    height: 300px !important;
+    background-image: url('/images/clients3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.8); 
+    }
+  }
+  @media (min-width: 577px)  and (max-width: 992.98px) {
+    .client-img{
+    height: 400px !important;
+    background-image: url('/images/clients3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.8); 
+    }
+  }
+  .about-img{
+    height: 600px;
+    background-image: url('/images/about-page.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

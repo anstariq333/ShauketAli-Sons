@@ -203,7 +203,7 @@ export default function OurServices() {
           </p>
         </div>
         <div className='col-12 col-md-6 slide-in from-right'>
-          <img src="./images/ideas.jpg" className="img-about shadow" alt="Lighting" />
+          <img src="/images/ideas.jpg" className="img-about shadow" alt="Lighting" />
         </div>
       </div>
     </div>

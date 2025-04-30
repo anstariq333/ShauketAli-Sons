@@ -49,7 +49,7 @@ export default function AboutUs() {
       
       <div className='row align-items-center  d-none d-md-flex'>
         <div className='col-12 col-md-6 slide-in from-left'>
-        <img src="./images/about1.jpg" className="img-fluid slider-img img-about shadow" alt="company" />
+        <img src="/images/about1.jpg" className="img-fluid slider-img img-about shadow" alt="company" />
           
         </div>
         <div className='col-12 col-md-6 slide-in from-right'>
@@ -81,7 +81,7 @@ export default function AboutUs() {
         </div>
            
         <div className='col-12 col-md-6 slide-in from-left'>
-        <img src="./images/about1.jpg" className="img-fluid slider-img img-about shadow" alt="Lighting" />
+        <img src="/images/about1.jpg" className="img-fluid slider-img img-about shadow" alt="Lighting" />
           
         </div>
 
@@ -99,14 +99,14 @@ export default function AboutUs() {
           </p>
         </div>
         <div className='col-12 col-md-6 slide-in from-right'>
-          <img src="./images/promise.jpg" className="img-fluid slider-img img-about shadow" alt="Lighting" />
+          <img src="/images/promise.jpg" className="img-fluid slider-img img-about shadow" alt="Lighting" />
         </div>
       </div>
       
      
      <div className='row align-items-center d-none d-md-flex'>
         <div className='col-12 col-md-6 slide-in from-left'>
-        <img src="./images/cable2.jpg" className="img-fluid slider-img img-about shadow" alt="Lighting" />
+        <img src="/images/cable2.jpg" className="img-fluid slider-img img-about shadow" alt="Lighting" />
           
         </div>
         <div className='col-12 col-md-6 slide-in from-right'>
@@ -139,7 +139,7 @@ export default function AboutUs() {
         </div>
           
         <div className='col-12 col-md-6 slide-in from-left'>
-        <img src="./images/cable2.jpg" className="img-fluid slider-img img-about shadow" alt="Lighting" />
+        <img src="/images/cable2.jpg" className="img-fluid slider-img img-about shadow" alt="Lighting" />
           
         </div>
 
@@ -157,14 +157,14 @@ export default function AboutUs() {
           </p>
         </div>
         <div className='col-12 col-md-6 slide-in from-right'>
-          <img src="./images/mission.jpg" className="img-fluid slider-img img-about shadow" alt="Lighting" />
+          <img src="/images/mission.jpg" className="img-fluid slider-img img-about shadow" alt="Lighting" />
         </div>
       </div>
 
 
       <div className='row align-items-center d-none d-md-flex'>
         <div className='col-12 col-md-6 slide-in from-left'>
-        <img src="./images/quality1.jpg" className="img-fluid slider-img img-about shadow" alt="Lighting" />
+        <img src="/images/quality1.jpg" className="img-fluid slider-img img-about shadow" alt="Lighting" />
           
         </div>
         <div className='col-12 col-md-6 slide-in from-right'>
@@ -193,7 +193,7 @@ export default function AboutUs() {
          </div>
          
          <div className='col-12 col-md-6 slide-in from-left'>
-        <img src="./images/quality1.jpg" className="img-fluid slider-img img-about shadow" alt="Lighting" />
+        <img src="/images/quality1.jpg" className="img-fluid slider-img img-about shadow" alt="Lighting" />
           
         </div>
 

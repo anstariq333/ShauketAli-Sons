@@ -8,6 +8,7 @@ import AboutUs from './pages/AboutUs';
 import OurClients from './pages/OurClients';
 import ContactUs from './pages/ContactUs'
 import OurServices from './pages/OurServices';
+import Test from './pages/Test';
 function App() {
 
   return (
@@ -22,7 +23,7 @@ function App() {
         <Route path='/clients' element={<OurClients />} />
         <Route path='/contact-us' element={<ContactUs />} />
         <Route path='/services' element={<OurServices/>} />
-       
+        <Route path='/test' element={<Test/>} />
       </Routes>
       <Footer></Footer>
     </BrowserRouter>
